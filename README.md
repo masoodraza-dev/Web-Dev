@@ -41,8 +41,4 @@ The main goals of this repository are to:
 
 ---
 
-## 📖 **How to Use**
-
-1. **Clone the repo:**  
-   ```bash
-   git clone https://github.com/masoodraza-dev/web-dev-practice.git
+b.com/masoodraza-dev/web-dev-practice.git
