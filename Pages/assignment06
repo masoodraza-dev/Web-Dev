@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>FIRST NAME
+            <input type="text"  placeholder="max characters 30" >
+        </p>
+
+        <p>LAST NAME
+            <input type="text"  placeholder="max characters 30" >
+        </p>
+
+        <p>DATE
+            <input type="date"  value="date" >
+        </p>
+
+        <p>EMAIL ID
+            <input type="email"  placeholder="abcd12@gmail.com" >
+        </p>
+
+        <p>MOBILE NUMBER
+            <input type="number"  placeholder="max digits 11"   maxlength="11">
+        </p>
+
+        <p>GENDER
+            <input type="radio" value="Male" id="mail" name="gender">
+            <label for="mail">Male</label>
+            <input type="radio" value="Female" id="female" name="gender">
+            <label for="female">Female</label>
+        </p>
+
+        <P>ADDRESS 
+            <textarea name="address" cols="60" rows="10" placeholder="enter your address here"></textarea>
+        </P>
+
+        <p>CITY
+            <input type="text"  placeholder="YOUR CITY"   maxlength="11">
+        </p>
+
+        <p>PIN CODE
+            <input type="number"  placeholder="max digits 6"   maxlength="11">
+        </p>
+
+        <p>COUNTRY
+            <input type="text" placeholder="i.e PAKISTAN"   maxlength="11">
+        </p>
+
+        <p>HOBIES
+            <label for="java">Drawing</label>
+            <input type="checkbox" name="drawing" id=" drawing" value="drawing">
+            <label for="C++">Singing</label>
+            <input type="checkbox" id="singing" value="singing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="dancing" value="dancing">
+            <label for="skatching">Skatching</label>
+            <input type="checkbox" id="skatching" value="skatching">
+            <label for="other">Other</label> 
+            <input type="checkbox" id="other" value="other">
+            <input type="text">
+        </p>
+        
+    </form>
+</body>
+</html>
